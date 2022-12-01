@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
@@ -17,16 +16,19 @@ public class CollectorAI : BTree
     private const float _COLLECT_RATE = 0.5f;
     private const float _DELIVER_DELAY = 0.35f;
 
+    [Header("Move")]
+    [SerializeField] private Tilemap _groundTilemap;
+    [SerializeField] private float _speed = 3;
+
+    [Header("Collect")]
+    [SerializeField] private Resource _resource;
+    [SerializeField] private int _maxStorage = 20;
+    [SerializeField] private Transform _resourceFillBar;
+
+    [Header("Visuals")]
     [SerializeField] private SpriteRenderer _spriteRenderer;
     [SerializeField] private Sprite _horizontalSprite;
     [SerializeField] private Sprite _verticalSprite;
-
-    [SerializeField] private Resource _resource;
-    [SerializeField] private int _maxStorage = 20;
-    [SerializeField] private float _speed = 3;
-
-    [SerializeField] private Tilemap _groundTilemap;
-    [SerializeField] private Transform _resourceFillBar;
 
     private void Start()
     {

@@ -1231,7 +1231,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 838387151}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!483693784 &385665264
 TilemapRenderer:
@@ -2020,10 +2020,10 @@ Transform:
   - {fileID: 1844966989}
   - {fileID: 1517822766}
   - {fileID: 299595210}
+  - {fileID: 2069062005}
   - {fileID: 1225099515}
   - {fileID: 385665263}
   - {fileID: 1219927284}
-  - {fileID: 2069062005}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2157,7 +2157,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 838387151}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!483693784 &1219927285
 TilemapRenderer:
@@ -2323,7 +2323,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 838387151}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!483693784 &1225099516
 TilemapRenderer:
@@ -5673,7 +5673,7 @@ Transform:
   m_Children:
   - {fileID: 252046893}
   m_Father: {fileID: 838387151}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2069062006
 MonoBehaviour:
