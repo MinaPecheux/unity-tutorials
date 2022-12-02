@@ -21,7 +21,7 @@ And in the `Assets/` folder, you'll find the code and assets for the following t
 
 Discover how to use the behaviour tree AI design pattern to give some life to RTS collector units! These little trucks will chop down trees or mine ores to gather wood and minerals, auto-finding the closest targets and regularly delivering their resources to a nearby depot, until the entire map is empty...
 
-- Watch on [YouTube](https://www.youtube.com/watch?v=ySIzNaW0HUI)
+- Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=ySIzNaW0HUI), [in French 🇫🇷](https://www.youtube.com/watch?v=utbQapz6DoU)
 - Read on [Medium](https://mina-pecheux.medium.com/using-behaviour-trees-for-a-rts-collector-ai-in-unity-c-dca24243ebce)
 - See the files [in the repo](/Assets/01-BehaviourTreesRTS/)
 
