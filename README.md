@@ -26,3 +26,13 @@ Discover how to use the behaviour tree AI design pattern to give some life to RT
 - See the files [in the repo](/Assets/01-BehaviourTreesRTS/)
 
 ![cover-01_behaviour-trees_rts](doc/01_behaviour-trees_rts.gif)
+
+## 02. Creating a day-and-night cycle system [<div />](#tutorial-02_day-and-night)
+
+Discover how to use the behaviour tree AI design pattern to give some life to RTS collector units! These little trucks will chop down trees or mine ores to gather wood and minerals, auto-finding the closest targets and regularly delivering their resources to a nearby depot, until the entire map is empty...
+
+- Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=O997NxQGQ6A)
+- Read on [Medium](https://mina-pecheux.medium.com/creating-a-basic-day-and-night-cycle-in-unity-c-dff942c1690d)
+- See the files [in the repo](/Assets/02-DayAndNightCycle/)
+
+![cover-02_day-and-night](doc/02_day-and-night.gif)
