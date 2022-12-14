@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/01-BehaviourTreesRTS/Behaviour Trees RTS.unity
+    path: Assets/Scenes/RTS.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   m_configObjects: {}
