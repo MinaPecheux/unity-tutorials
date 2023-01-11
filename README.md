@@ -31,8 +31,18 @@ Discover how to use the behaviour tree AI design pattern to give some life to RT
 
 Discover how to use the behaviour tree AI design pattern to give some life to RTS collector units! These little trucks will chop down trees or mine ores to gather wood and minerals, auto-finding the closest targets and regularly delivering their resources to a nearby depot, until the entire map is empty...
 
-- Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=O997NxQGQ6A)
+- Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=O997NxQGQ6A), [in French 🇫🇷](https://www.youtube.com/watch?v=CHV9xLaFf8w)
 - Read on [Medium](https://mina-pecheux.medium.com/creating-a-basic-day-and-night-cycle-in-unity-c-dff942c1690d)
 - See the files [in the repo](/Assets/02-DayAndNightCycle/)
 
 ![cover-02_day-and-night](doc/02_day-and-night.gif)
+
+## Shaders
+
+### Procedural Grid (URP)
+
+- Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=T0CYpOyCVIU)
+- Read on [Medium](https://mina-pecheux.medium.com/creating-a-procedural-grid-shader-in-unity-6d0b727bf52d)
+- See the files [in the repo](/Assets/Shaders/)
+
+![cover-shaders_procedural-grid](doc/shaders_procedural-grid.gif)
