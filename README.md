@@ -41,7 +41,7 @@ Discover how to use the behaviour tree AI design pattern to give some life to RT
 
 ### Procedural Grid (URP)
 
-- Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=T0CYpOyCVIU)
+- Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=T0CYpOyCVIU), [in French 🇫🇷](https://www.youtube.com/watch?v=0iq6ZO7owNM)
 - Read on [Medium](https://mina-pecheux.medium.com/creating-a-procedural-grid-shader-in-unity-6d0b727bf52d)
 - See the files [in the repo](/Assets/Shaders/)
 
