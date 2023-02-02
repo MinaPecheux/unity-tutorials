@@ -37,6 +37,18 @@ Discover how to use the behaviour tree AI design pattern to give some life to RT
 
 ![cover-02_day-and-night](doc/02_day-and-night.gif)
 
+## 03. How to use Unity's new input system [<div />](#tutorial-03_new-input-system)
+
+Want to learn more about Unity's new `InputSystem` package, and you can use it to create basic cross-platform player controller that supports both gamepads and keyboard+mouse layouts? Then check out this quick tutorial :)
+
+- Watch on YouTube: [in English 🇬🇧](https://youtu.be/SyA4PPiXorI)
+- Read on [Medium](https://medium.com/codex/why-you-should-use-unitys-new-input-system-268773863c4)
+- See the files [in the repo](/Assets/03-NewInputSystem/)
+
+**Important note:** The repo contains an extended version of the `HeroController.cs` script we make in the YouTube video with additional camera control (you can find it in the `HeroControllerWithCamera.cs` script). To use it, replace the `HeroController` component with the `HeroControllerWithCamera` on the "Hero" object, and then disable the "Aim" feature of the Cinemachine camera, so the script is free to rotate the view as it wants :)
+
+![cover-03_new-input-system](doc/03_new-input-system.png)
+
 ## Shaders
 
 ### Procedural Grid (URP)
