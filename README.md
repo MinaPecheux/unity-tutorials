@@ -53,7 +53,7 @@ Want to learn more about Unity's new `InputSystem` package, and you can use it t
 
 Want to learn more about Unity's Scriptable Objects, and you can use it to store custom data types in an efficient way? Then check out this tutorial :)
 
-- Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=ZnHxxADBAQ0)
+- Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=ZnHxxADBAQ0), [in French 🇫🇷](https://www.youtube.com/watch?v=m5ePVtQq-zo)
 - Read on [Medium](https://mina-pecheux.medium.com/discovering-the-power-of-unitys-scriptable-objects-53ae6e0acef4)
 - See the files [in the repo](/Assets/04-ScriptableObjects/)
 
