@@ -49,6 +49,16 @@ Want to learn more about Unity's new `InputSystem` package, and you can use it t
 
 ![cover-03_new-input-system](doc/03_new-input-system.png)
 
+## 04. How to use Unity's Scriptable Objects
+
+Want to learn more about Unity's Scriptable Objects, and you can use it to store custom data types in an efficient way? Then check out this tutorial :)
+
+- Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=ZnHxxADBAQ0)
+- Read on [Medium](https://mina-pecheux.medium.com/discovering-the-power-of-unitys-scriptable-objects-53ae6e0acef4)
+- See the files [in the repo](/Assets/04-ScriptableObjects/)
+
+![cover-04_scriptable-objects](doc/04_scriptable-objects.jpg)
+
 ## Shaders
 
 ### Procedural Grid (URP)
