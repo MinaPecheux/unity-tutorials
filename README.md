@@ -59,6 +59,16 @@ Want to learn more about Unity's Scriptable Objects, and you can use it to store
 
 ![cover-04_scriptable-objects](doc/04_scriptable-objects.jpg)
 
+## 05. Creating a basic field of vision system
+
+Learn how to make a simple field of vision (FOV) system for a robot guard unit with custom debug gizmos for easy visualisation and tweaking, and with related alertness levels.
+
+- Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=2Q5n7KFsr3s)
+- Read on [Medium](https://mina-pecheux.medium.com/creating-a-basic-field-of-vision-system-in-unity-c-718b58951cf6)
+- See the files [in the repo](/Assets/05-GuardFOV/)
+
+![cover-05_guard-fov](doc/05_guard-fov.png)
+
 ## Shaders
 
 ### Procedural Grid (URP)
