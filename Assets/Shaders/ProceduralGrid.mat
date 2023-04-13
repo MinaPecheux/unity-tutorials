@@ -47,7 +47,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Grid_Thickness: 0.1
+    - _Grid_Thickness: 0.015
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Transparent: 0
