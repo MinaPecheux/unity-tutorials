@@ -63,7 +63,7 @@ Want to learn more about Unity's Scriptable Objects, and you can use it to store
 
 Learn how to make a simple field of vision (FOV) system for a robot guard unit with custom debug gizmos for easy visualisation and tweaking, and with related alertness levels.
 
-- Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=2Q5n7KFsr3s)
+- Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=2Q5n7KFsr3s), [in French 🇫🇷](https://www.youtube.com/watch?v=81Lz19C88C0)
 - Read on [Medium](https://mina-pecheux.medium.com/creating-a-basic-field-of-vision-system-in-unity-c-718b58951cf6)
 - See the files [in the repo](/Assets/05-GuardFOV/)
 
