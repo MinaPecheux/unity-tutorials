@@ -69,6 +69,15 @@ Learn how to make a simple field of vision (FOV) system for a robot guard unit w
 
 ![cover-05_guard-fov](doc/05_guard-fov.png)
 
+## 06. The power of custom animation events
+
+Wanna discover how to embed events in your Unity animation clips to precisely time callbacks and trigger specific reactions all throughout the moves of your hero avatars? Checkout this quick tutorial! :)
+
+- Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=7xNI2hUoXWw)
+- See the files [in the repo](/Assets/06-AnimationEvents/)
+
+![cover-06_animation-events](doc/06_animation-events.png)
+
 ## Shaders
 
 ### Procedural Grid (URP)
