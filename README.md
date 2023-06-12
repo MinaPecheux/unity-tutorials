@@ -73,7 +73,7 @@ Learn how to make a simple field of vision (FOV) system for a robot guard unit w
 
 Wanna discover how to embed events in your Unity animation clips to precisely time callbacks and trigger specific reactions all throughout the moves of your hero avatars? Checkout this quick tutorial! :)
 
-- Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=7xNI2hUoXWw)
+- Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=7xNI2hUoXWw), [in French 🇫🇷](https://www.youtube.com/watch?v=Mg6DsLlhddU)
 - See the files [in the repo](/Assets/06-AnimationEvents/)
 
 ![cover-06_animation-events](doc/06_animation-events.png)
