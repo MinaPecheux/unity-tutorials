@@ -71,12 +71,21 @@ Learn how to make a simple field of vision (FOV) system for a robot guard unit w
 
 ## 06. The power of custom animation events
 
-Wanna discover how to embed events in your Unity animation clips to precisely time callbacks and trigger specific reactions all throughout the moves of your hero avatars? Checkout this quick tutorial! :)
+Wanna discover how to embed events in your Unity animation clips to precisely time callbacks and trigger specific reactions all throughout the moves of your hero avatars? Check out this quick tutorial! :)
 
 - Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=7xNI2hUoXWw), [in French 🇫🇷](https://www.youtube.com/watch?v=Mg6DsLlhddU)
 - See the files [in the repo](/Assets/06-AnimationEvents/)
 
 ![cover-06_animation-events](doc/06_animation-events.png)
+
+## 07. Implementing a basic building placement system
+
+If you want to learn how to make your own RTS-like "free placement" building system, then check out this video tutorial!
+
+- Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=OaQQ67N9hWc)
+- See the files [in the repo](/Assets/07-BuildingPlacement/)
+
+![cover-07_building-placement](doc/07_building-placement.png)
 
 ## Shaders
 
