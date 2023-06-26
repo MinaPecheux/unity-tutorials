@@ -82,7 +82,7 @@ Wanna discover how to embed events in your Unity animation clips to precisely ti
 
 If you want to learn how to make your own RTS-like "free placement" building system, then check out this video tutorial!
 
-- Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=OaQQ67N9hWc)
+- Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=OaQQ67N9hWc), [in French 🇫🇷](https://www.youtube.com/watch?v=I6TRatXjRYI)
 - See the files [in the repo](/Assets/07-BuildingPlacement/)
 
 ![cover-07_building-placement](doc/07_building-placement.png)
