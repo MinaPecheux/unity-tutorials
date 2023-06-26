@@ -93,6 +93,14 @@ If you want to learn how to make your own RTS-like "free placement" building sys
 
 - Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=T0CYpOyCVIU), [in French 🇫🇷](https://www.youtube.com/watch?v=0iq6ZO7owNM)
 - Read on [Medium](https://mina-pecheux.medium.com/creating-a-procedural-grid-shader-in-unity-6d0b727bf52d)
-- See the files [in the repo](/Assets/Shaders/)
+- See the files [in the repo](/Assets/00-Shaders/ProceduralGrid/)
 
 ![cover-shaders_procedural-grid](doc/shaders_procedural-grid.gif)
+
+### Cross-platform Wireframe (URP)
+
+- Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=xEmyl5_wYqk)
+- Read on [Medium](https://mina-pecheux.medium.com/creating-a-cross-platform-wireframe-shader-in-unity-64045828d4e2)
+- See the files [in the repo](/Assets/00-Shaders/CrossPlatformWireframe/)
+
+![cover-shaders_crossplatform-wireframe](doc/shaders_crossplatform-wireframe.gif)
