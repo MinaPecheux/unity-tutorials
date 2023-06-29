@@ -3,25 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class BuildingPlacer : MonoBehaviour
+public class BuildingGridPlacer : BuildingPlacer
 {
-    public static BuildingPlacer instance; // (Singleton pattern)
+    public float cellSize;
+    public Vector2 gridOffset;
+    public Renderer gridRenderer;
 
-    public LayerMask groundLayerMask;
-
-    protected GameObject _buildingPrefab;
-    protected GameObject _toBuild;
-
-    protected Camera _mainCamera;
-
-    protected Ray _ray;
-    protected RaycastHit _hit;
-
-    private void Awake()
+#if UNITY_EDITOR
+    private void OnValidate()
     {
-        instance = this; // (Singleton pattern)
-        _mainCamera = Camera.main;
-        _buildingPrefab = null;
+        _UpdateGridVisual();
+    }
+#endif
+
+    private void Start()
+    {
+        _UpdateGridVisual();
+        _EnableGridVisual(false);
     }
 
     private void Update()
@@ -35,6 +33,7 @@ public class BuildingPlacer : MonoBehaviour
                 Destroy(_toBuild);
                 _toBuild = null;
                 _buildingPrefab = null;
+                _EnableGridVisual(false);
                 return;
             }
 
@@ -56,7 +55,7 @@ public class BuildingPlacer : MonoBehaviour
             if (Physics.Raycast(_ray, out _hit, 1000f, groundLayerMask))
             {
                 if (!_toBuild.activeSelf) _toBuild.SetActive(true);
-                _toBuild.transform.position = _hit.point;
+                _toBuild.transform.position = _ClampToNearest(_hit.point, cellSize);
 
                 if (Input.GetMouseButtonDown(0))
                 { // if left-click
@@ -76,6 +75,7 @@ public class BuildingPlacer : MonoBehaviour
                         {
                             _buildingPrefab = null;
                             _toBuild = null;
+                            _EnableGridVisual(false);
                         }
                     }
                 }
@@ -85,23 +85,35 @@ public class BuildingPlacer : MonoBehaviour
         }
     }
 
-    public void SetBuildingPrefab(GameObject prefab)
+    protected override void _PrepareBuilding()
     {
-        _buildingPrefab = prefab;
-        _PrepareBuilding();
-        EventSystem.current.SetSelectedGameObject(null); // cancel keyboard UI nav
+        base._PrepareBuilding();
+        _EnableGridVisual(true);
     }
 
-    protected virtual void _PrepareBuilding()
+    private Vector3 _ClampToNearest(Vector3 pos, float threshold)
     {
-        if (_toBuild) Destroy(_toBuild);
+        float t = 1f / threshold;
+        Vector3 v = ((Vector3)Vector3Int.FloorToInt(pos * t)) / t;
 
-        _toBuild = Instantiate(_buildingPrefab);
-        _toBuild.SetActive(false);
+        float s = threshold * 0.5f;
+        v.x += s + gridOffset.x; // (recenter in middle of cells)
+        v.z += s + gridOffset.y;
 
-        BuildingManager m = _toBuild.GetComponent<BuildingManager>();
-        m.isFixed = false;
-        m.SetPlacementMode(PlacementMode.Valid);
+        return v;
+    }
+
+    private void _EnableGridVisual(bool on)
+    {
+        if (gridRenderer == null) return;
+        gridRenderer.gameObject.SetActive(on);
+    }
+
+    private void _UpdateGridVisual()
+    {
+        if (gridRenderer == null) return;
+        gridRenderer.sharedMaterial.SetVector(
+            "_Cell_Size", new Vector4(cellSize, cellSize, 0, 0));
     }
 
 }
