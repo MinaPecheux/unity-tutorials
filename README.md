@@ -87,6 +87,16 @@ If you want to learn how to make your own RTS-like "free placement" building sys
 
 ![cover-07_building-placement](doc/07_building-placement.png)
 
+## 08. Implementing a grid-based building placement system
+
+Wanna extend on our previous "free placement" building system and learn how to turn it into a snapping grid version? Check out this quick tutorial!
+
+- Watch on YouTube: [in English 🇬🇧](https://youtu.be/jEYzUAhYXHI)
+- Read on [Medium](https://mina-pecheux.medium.com/creating-a-building-grid-based-placement-system-in-unity-c-aca4b70f9273)
+- See the files [in the repo](/Assets/08-BuildingGridPlacement/)
+
+![cover-08_building-grid-placement](doc/08_building-grid-placement.png)
+
 ## Shaders
 
 ### Procedural Grid (URP)
