@@ -109,7 +109,7 @@ Wanna extend on our previous "free placement" building system and learn how to t
 
 ### Cross-platform Wireframe (URP)
 
-- Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=xEmyl5_wYqk)
+- Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=xEmyl5_wYqk), [in French 🇫🇷](https://www.youtube.com/watch?v=y_E_WynwrAw)
 - Read on [Medium](https://mina-pecheux.medium.com/creating-a-cross-platform-wireframe-shader-in-unity-64045828d4e2)
 - See the files [in the repo](/Assets/00-Shaders/CrossPlatformWireframe/)
 
