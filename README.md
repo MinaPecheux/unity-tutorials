@@ -19,7 +19,9 @@ And in the `Assets/` folder, you'll find the code and assets for the following t
 
 ## 01. Using behaviour trees for a RTS collector AI [<div />](#tutorial-01_bts-rts)
 
-Discover how to use the behaviour tree AI design pattern to give some life to RTS collector units! These little trucks will chop down trees or mine ores to gather wood and minerals, auto-finding the closest targets and regularly delivering their resources to a nearby depot, until the entire map is empty...
+Discover how to use the behaviour tree AI design pattern to give some life to RTS collector units! These little trucks will chop down
+trees or mine ores to gather wood and minerals, auto-finding the closest targets and regularly delivering their resources to a nearby
+depot, until the entire map is empty...
 
 - Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=ySIzNaW0HUI), [in French 🇫🇷](https://www.youtube.com/watch?v=utbQapz6DoU)
 - Read on [Medium](https://mina-pecheux.medium.com/using-behaviour-trees-for-a-rts-collector-ai-in-unity-c-dca24243ebce)
@@ -29,7 +31,7 @@ Discover how to use the behaviour tree AI design pattern to give some life to RT
 
 ## 02. Creating a day-and-night cycle system [<div />](#tutorial-02_day-and-night)
 
-Discover how to use the behaviour tree AI design pattern to give some life to RTS collector units! These little trucks will chop down trees or mine ores to gather wood and minerals, auto-finding the closest targets and regularly delivering their resources to a nearby depot, until the entire map is empty...
+Learn how to setup a basic day-and-night cycle in a 2D scene, by changing the global light and toggling some smaller spots.
 
 - Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=O997NxQGQ6A), [in French 🇫🇷](https://www.youtube.com/watch?v=CHV9xLaFf8w)
 - Read on [Medium](https://mina-pecheux.medium.com/creating-a-basic-day-and-night-cycle-in-unity-c-dff942c1690d)
@@ -39,9 +41,10 @@ Discover how to use the behaviour tree AI design pattern to give some life to RT
 
 ## 03. How to use Unity's new input system [<div />](#tutorial-03_new-input-system)
 
-Want to learn more about Unity's new `InputSystem` package, and you can use it to create basic cross-platform player controller that supports both gamepads and keyboard+mouse layouts? Then check out this quick tutorial :)
+Want to learn more about Unity's new InputSystem package, and how you can use it to create basic cross-platform player controller that supports
+            both gamepads and keyboard+mouse layouts? Then check out this quick tutorial :)
 
-- Watch on YouTube: [in English 🇬🇧](https://youtu.be/SyA4PPiXorI)
+- Watch on YouTube: [in English 🇬🇧](https://youtu.be/SyA4PPiXorI), [in French 🇫🇷](https://www.youtube.com/watch?v=m5ePVtQq-zo)
 - Read on [Medium](https://medium.com/codex/why-you-should-use-unitys-new-input-system-268773863c4)
 - See the files [in the repo](/Assets/03-NewInputSystem/)
 
@@ -51,9 +54,9 @@ Want to learn more about Unity's new `InputSystem` package, and you can use it t
 
 ## 04. How to use Unity's Scriptable Objects
 
-Want to learn more about Unity's Scriptable Objects, and you can use it to store custom data types in an efficient way? Then check out this tutorial :)
+Want to learn more about Unity's Scriptable Objects, and how you can use it to store custom data types in an efficient way? Then check out this tutorial :)
 
-- Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=ZnHxxADBAQ0), [in French 🇫🇷](https://www.youtube.com/watch?v=m5ePVtQq-zo)
+- Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=ZnHxxADBAQ0), [in French 🇫🇷](https://www.youtube.com/watch?v=q81A6cjdGcY)
 - Read on [Medium](https://mina-pecheux.medium.com/discovering-the-power-of-unitys-scriptable-objects-53ae6e0acef4)
 - See the files [in the repo](/Assets/04-ScriptableObjects/)
 
@@ -83,6 +86,7 @@ Wanna discover how to embed events in your Unity animation clips to precisely ti
 If you want to learn how to make your own RTS-like "free placement" building system, then check out this video tutorial!
 
 - Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=OaQQ67N9hWc), [in French 🇫🇷](https://www.youtube.com/watch?v=I6TRatXjRYI)
+- Read on [Medium](https://medium.com/codex/implementing-a-basic-building-placement-system-in-unity-c-6b969d52f533)
 - See the files [in the repo](/Assets/07-BuildingPlacement/)
 
 ![cover-07_building-placement](doc/07_building-placement.png)
@@ -91,7 +95,7 @@ If you want to learn how to make your own RTS-like "free placement" building sys
 
 Wanna extend on our previous "free placement" building system and learn how to turn it into a snapping grid version? Check out this quick tutorial!
 
-- Watch on YouTube: [in English 🇬🇧](https://youtu.be/jEYzUAhYXHI)
+- Watch on YouTube: [in English 🇬🇧](https://youtu.be/jEYzUAhYXHI), [in French 🇫🇷](https://www.youtube.com/watch?v=qhwnJh0zDN8)
 - Read on [Medium](https://mina-pecheux.medium.com/creating-a-building-grid-based-placement-system-in-unity-c-aca4b70f9273)
 - See the files [in the repo](/Assets/08-BuildingGridPlacement/)
 
@@ -101,6 +105,8 @@ Wanna extend on our previous "free placement" building system and learn how to t
 
 ### Procedural Grid (URP)
 
+Learn how to create a simple procedural grid with adaptive cell size, world-relative coordinates, and customisable colours/transparency.
+
 - Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=T0CYpOyCVIU), [in French 🇫🇷](https://www.youtube.com/watch?v=0iq6ZO7owNM)
 - Read on [Medium](https://mina-pecheux.medium.com/creating-a-procedural-grid-shader-in-unity-6d0b727bf52d)
 - See the files [in the repo](/Assets/00-Shaders/ProceduralGrid/)
@@ -108,6 +114,8 @@ Wanna extend on our previous "free placement" building system and learn how to t
 ![cover-shaders_procedural-grid](doc/shaders_procedural-grid.gif)
 
 ### Cross-platform Wireframe (URP)
+
+Discover the specificities of wireframe shaders, why making them cross-platform is hard, and how to dodge this issue thanks to pre-computed barycentric coordinates.
 
 - Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=xEmyl5_wYqk), [in French 🇫🇷](https://www.youtube.com/watch?v=y_E_WynwrAw)
 - Read on [Medium](https://mina-pecheux.medium.com/creating-a-cross-platform-wireframe-shader-in-unity-64045828d4e2)
