@@ -107,6 +107,8 @@ Wanna extend on our previous "free placement" building system and learn how to t
 
 Learn how to create a simple procedural grid with adaptive cell size, world-relative coordinates, and customisable colours/transparency.
 
+**Edit:** @Montesinnos added a really nice improvement to the shader to avoid the offset due to the thickness - it's been merged in Sept, 2023 and is available in the main branch of this repo! :)
+
 - Watch on YouTube: [in English 🇬🇧](https://www.youtube.com/watch?v=T0CYpOyCVIU), [in French 🇫🇷](https://www.youtube.com/watch?v=0iq6ZO7owNM)
 - Read on [Medium](https://mina-pecheux.medium.com/creating-a-procedural-grid-shader-in-unity-6d0b727bf52d)
 - See the files [in the repo](/Assets/00-Shaders/ProceduralGrid/)
